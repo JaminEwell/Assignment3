@@ -10,3 +10,12 @@ h3 {
     border-bottom-color: #929CA4;
     border-width: 100%;
 }
+
+p:first-child::first-letter {
+    font-size: 30px;
+}
+
+.subhead::first-letter {
+    initial-letter: 2;
+    font-size: 30px;
+}

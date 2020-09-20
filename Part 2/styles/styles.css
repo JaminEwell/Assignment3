@@ -28,3 +28,7 @@ h2 {
     outline: #929ca4;
     padding-left: 10px;
 }
+
+a[href*="http"].active {
+    color: #CC1C0D;
+}

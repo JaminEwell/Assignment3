@@ -11,3 +11,20 @@ body {
     font-size: 1em;
     line-height: 2em;
 }
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+a {
+    color: #CC1C0D;
+}
+
+h2 {
+    color: #CC1C0D;
+    background-color: #DFE3E6;
+    border-radius: 5px;
+    outline: #929ca4;
+    padding-left: 10px;
+}

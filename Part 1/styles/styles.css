@@ -26,7 +26,25 @@ p :first-child::first-letter {
     margin: 50px;
 }
 
-a[href="http://www.dorknozzle.com"] {}
+a[href*="http"].hover {
+    color: #ff0000;
+    text-decoration: aqua;
+}
+
+a[href*="http"].active {
+    color: #CC1C0D;
+    text-decoration: orange;
+}
+
+a[href*="http"].visited {
+    color: #929CA4;
+    text-decoration: purple;
+}
+
+a[href*="http"].unvisited {
+    color: #ff0000;
+    text-decoration: green;
+}
 
 ul {
     list-style-type: none;

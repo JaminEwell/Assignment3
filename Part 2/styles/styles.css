@@ -32,3 +32,9 @@ h2 {
 a[href*="http"].active {
     color: #CC1C0D;
 }
+
+img {
+    vertical-align: text-top;
+    padding-right: 5px;
+    float: left;
+}

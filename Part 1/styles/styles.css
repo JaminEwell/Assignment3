@@ -3,3 +3,10 @@
     font-size: 1em;
     background-color: #EDEDED;
 }
+
+h3 {
+    color: darkred;
+    border-bottom: 1px;
+    border-bottom-color: #929CA4;
+    border-width: 100%;
+}

@@ -11,11 +11,31 @@ h3 {
     border-width: 100%;
 }
 
-p:first-child::first-letter {
+p :first-child::first-letter {
     font-size: 30px;
 }
 
-.subhead::first-letter {
-    initial-letter: 2;
-    font-size: 30px;
+.solution {
+    color: #CC1C0D;
+    font-weight: bold;
+}
+
+#testimonial1,
+#testimonial2 {
+    font-style: italic;
+    margin: 50px;
+}
+
+a[href="http://www.dorknozzle.com"] {}
+
+ul {
+    list-style-type: none;
+}
+
+ul li:first-child {
+    color: blue;
+}
+
+ul li:last-child {
+    color: red;
 }

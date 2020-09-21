@@ -12,11 +12,6 @@ body {
     line-height: 2em;
 }
 
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
 a {
     color: #CC1C0D;
 }
@@ -37,4 +32,42 @@ img {
     vertical-align: text-top;
     padding-right: 5px;
     float: left;
+}
+
+section img {
+    border-radius: 45%;
+    border: solid 1px #CC1C0D;
+    vertical-align: text-top;
+    float: top;
+    padding-right: 0px;
+    margin-bottom: 30px;
+    margin-right: 10px;
+}
+
+section p {
+    padding-left: 10px;
+    margin-top: 4px;
+}
+
+#vprospect {
+    font-weight: bold;
+}
+
+#vconvert {
+    font-weight: bold;
+}
+
+#vretain {
+    font-weight: bold;
+}
+
+ol {
+    list-style-type: none;
+}
+
+ul li {}
+
+.nav {
+    list-style-type: none;
+    padding: 0;
 }

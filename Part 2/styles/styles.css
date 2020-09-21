@@ -65,9 +65,36 @@ ol {
     list-style-type: none;
 }
 
-ul li {}
-
 .nav {
     list-style-type: none;
     padding: 0;
+}
+
+div {
+    float: left;
+    width: 20%;
+    border: 1px solid black;
+    border-radius: 12px;
+    margin-left: 10px;
+}
+
+.pricing img {
+    border-radius: 0;
+    outline: none;
+    border: 0;
+    vertical-align: right;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.pricing h3 {
+    border-top: 10px solid #CC1C0D;
+    margin-top: 80px;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+
+.pricing p {
+    text-align: center;
+    vertical-align: text-top;
 }
